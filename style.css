@@ -1,16 +1,28 @@
 .centerVertical {
-    height: 100%;
+    height: 50vh;
     display: flex;
     flex-flow: column;
-    justify-content: center;
+    justify-content: flex-end;
 }
 .centerHorizontal {
+    width: 60vw;
+    min-width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
 html {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Helvetica, Arial, sans-serif
 }
 .bulletImg {
-    height: 1em;
+    height: 2.5em;
+    filter: invert(1);
+}
+.backgroundImage {
+    background-image: url(./img/bg.png);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    background-size: cover;
+    filter: brightness(0.5);
 }
