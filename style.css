@@ -77,6 +77,8 @@ footer {
     border: 1px solid white;
     border-radius: 10px;
     padding: 1em;
+    margin-left: -1em;
+    margin-right: -1em;
 }
 
 #featured h3 {
@@ -85,4 +87,22 @@ footer {
 
 h1 {
     font-size: 2.5em;
+}
+
+section {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.caption {
+    margin-left: 1em;
+    font-style: italic;
+    font-size: small;
+    margin-top: -2em;
+    margin-bottom: 1em;
+}
+
+.textImage {
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
