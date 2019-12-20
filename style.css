@@ -2,13 +2,24 @@
     height: 50vh;
     display: flex;
     flex-flow: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    padding-top: 10em;
 }
 .centerHorizontal {
-    width: 60vw;
+    width: 38em;
     min-width: 400px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+@media screen and (min-width: 120em) {
+    .centerHorizontal {
+        margin-left: 40em;
+    }
+}
+a {
+    color: white;
 }
 html {
     font-family: Helvetica, Arial, sans-serif
@@ -18,11 +29,58 @@ html {
     filter: invert(1);
 }
 .backgroundImage {
-    background-image: url(./img/bg.png);
-    width: 100%;
-    height: 100%;
-    position: absolute;
+    background-image: url(./img/backgrounds/4.jpg);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    overflow: hidden;
+    position: fixed;
     z-index: -1;
     background-size: cover;
-    filter: brightness(0.5);
+    filter: blur(2px);
+}
+nav a {
+    color: white;
+}
+nav li:before {
+    content: '\1F320';
+    margin-left: -20px;
+    margin-right: 10px;
+    }
+nav {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+nav ul {
+    padding-left: 1em;
+}
+nav li:first-of-type {
+    margin-left: 0px;
+}
+nav li {
+    margin-left: 2.5em;
+    display: inline;
+}
+
+header {
+    margin-bottom: 3em;
+}
+
+footer {
+    margin-top: 3em;
+}
+
+.soundcloud {
+    max-width: 40em;
+}
+
+#featured {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 1em;
+    width: 100%;
+    max-width: calc(100% - 4em);
+}
+
+#featured h3 {
+    margin-top: 0px;
 }
