@@ -5,14 +5,23 @@
     justify-content: flex-start;
     padding-top: 10em;
 }
+
+/* slightly less header padding on mobile */
+@media screen and (max-width: 100em) {
+    .centerHorizontal {
+        margin-left: 30vh;
+    }
+}
 .centerHorizontal {
     width: 38em;
     min-width: 400px;
+    max-width: calc(100% - 2em);
     margin-left: auto;
     margin-right: auto;
     padding-left: 1em;
     padding-right: 1em;
 }
+/* on desktop, content is slightly off to the left */
 @media screen and (min-width: 120em) {
     .centerHorizontal {
         margin-left: 40em;
@@ -102,7 +111,8 @@ section {
     margin-bottom: 1em;
 }
 
-.textImage {
+p img{
     margin-top: 1em;
     margin-bottom: 1em;
+    max-width: 100%;
 }
