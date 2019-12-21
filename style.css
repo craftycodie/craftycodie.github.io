@@ -7,9 +7,9 @@
 }
 
 /* slightly less header padding on mobile */
-@media screen and (max-width: 100em) {
-    .centerHorizontal {
-        margin-left: 30vh;
+@media screen and (orientation:portrait) {
+    .centerVertical {
+        padding-top: 5em;
     }
 }
 .centerHorizontal {
