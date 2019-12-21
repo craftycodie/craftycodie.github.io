@@ -1,0 +1,28 @@
+/* #portfolio > ul > li:before {
+    content: '\1F320';
+    margin-left: -20px;
+    margin-right: 10px;
+} */
+
+h3 {
+    font-size: 1.5em;
+}
+
+#portfolio > ul > li{
+    list-style-type: none;
+    margin-left: 0px;
+}
+
+#portfolio > ul > li:before {
+    content: '\2B50';
+    margin-left: -30px;
+    margin-right: 10px;
+}
+
+#portfolio > ul > .study:before {
+    content: '\1F393';
+}
+
+#portfolio > ul > .work:before {
+    content: '\1F4BC';
+}
