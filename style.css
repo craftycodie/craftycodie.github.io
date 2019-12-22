@@ -3,15 +3,9 @@
     display: flex;
     flex-flow: column;
     justify-content: flex-start;
-    padding-top: 10em;
+    padding-top: 5em;
 }
 
-/* slightly less header padding on mobile */
-@media screen and (orientation:portrait) {
-    .centerVertical {
-        padding-top: 5em;
-    }
-}
 .centerHorizontal {
     width: 38em;
     min-width: 400px;
@@ -25,6 +19,9 @@
 @media screen and (min-width: 120em) {
     .centerHorizontal {
         margin-left: 40em;
+    }
+    .centerVertical {
+        padding-top: 10em;
     }
 }
 a {
