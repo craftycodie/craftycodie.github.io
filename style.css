@@ -28,7 +28,11 @@ a {
     color: white;
 }
 html {
-    font-family: Helvetica, Arial, sans-serif
+    font-family: Helvetica, Arial, sans-serif;
+    height: 100%;
+}
+p {
+    text-align: justify;
 }
 .bulletImg {
     height: 2.5em;
