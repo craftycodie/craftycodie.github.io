@@ -1,6 +1,6 @@
 
 // Background image selection
-const backgroundImageCount = 5;
+const backgroundImageCount = 6;
 
 var backgroundImageElement = document.getElementById("backgroundImage");
 var randomImage = Math.random() * (backgroundImageCount - 1) + 1;
