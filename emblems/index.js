@@ -203,7 +203,7 @@ function saveImage() {
     a.click()
 }
 
-function renderEmblem() {
+async function renderEmblem() {
     var EB_image = new Image;
     var EP_image = new Image;
     var ES_image = new Image;
@@ -216,6 +216,8 @@ function renderEmblem() {
     canvas.width = size;
     canvas.height = size;
     context = canvas.getContext('2d');
+
+    await Promise.all([new Promise((res) => EB_image.onload = res), new Promise((res) => EP_image.onload = res), new Promise((res) => ES_image.onload = res)])
 
     context.clearRect(0, 0, size, size);
 
