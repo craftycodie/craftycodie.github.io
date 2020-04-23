@@ -258,5 +258,6 @@ if(bc) {
     form.elements["color_background"].value = bc;
 }
 
-
-updateEmblem();
+document.addEventListener("DOMContentLoaded", function(event) { 
+    updateEmblem();
+  });
