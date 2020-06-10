@@ -39,16 +39,16 @@ p {
     height: 2em;
     background-color: white;
 }
-/* #backgroundImage {
-    background-image: url(./img/backgrounds/4.jpg);
+#backgroundImage {
+    /* background-image: url(./img/backgrounds/4.jpg); */
     width: calc(100% + 4px);
     height: calc(100% + 4px);
     overflow: hidden;
     position: fixed;
     z-index: -1;
-    background-size: cover;
-    filter: blur(2px);
-} */
+    /* background-size: cover;
+    filter: blur(2px); */
+}
 /* nav a {
     color: white;
 } */
