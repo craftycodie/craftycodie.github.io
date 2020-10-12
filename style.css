@@ -16,11 +16,18 @@
     padding-right: 1em;
 }
 /* on desktop, content is slightly off to the left */
-@media screen and (min-width: 120em) {
+/* @media screen and (min-width: 120em) {
     .centerVertical {
         padding-top: 10em;
     }
-}
+} */
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .centerVertical {
+        padding-top: 3em;
+    }
+  }
 /* a {
     color: white;
 } */
