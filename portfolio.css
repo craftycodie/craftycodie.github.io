@@ -34,6 +34,7 @@ body {
 
 hr {
     border-color: #0F101B;
+    display: none;
 }
 
 header a {
