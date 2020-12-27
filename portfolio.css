@@ -23,6 +23,10 @@
     content: '\1F4BC';
 }
 
+#experience > ul > .music:before {
+    content: '🎵';
+}
+
 body {
     color: #0F101B;
     background-color: #B99D80;
