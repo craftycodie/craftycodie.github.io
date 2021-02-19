@@ -34,7 +34,7 @@
 html {
     font-family: Helvetica, Arial, sans-serif;
     height: 100%;
-    color: #B99D80;
+    color: white;
     -webkit-user-select: none; /* Safari */        
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
@@ -42,7 +42,7 @@ html {
 }
 
 header a {
-    color: #B99D80;
+    color: #a2a2a2;
     font-weight: bolder;
     font-size: larger;
     text-align: justify;
@@ -58,7 +58,7 @@ p {
 .bulletImg {
     filter: invert(1) brightness(0.93);
     height: 2em;
-    background-color: #0F101B;
+    background-color: #1b1118;
 }
 #backgroundImage {
     /* background-image: url(./img/backgrounds/4.jpg); */
@@ -141,5 +141,5 @@ body {
     margin:0;
     /* color:white;
     background-color: black */
-    background-color: #0F101B;
+    background-color: #1f131e;
 }
