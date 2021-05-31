@@ -10,6 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
   }
   body {
     font-family: Arial, Helvetica, sans-serif;
@@ -136,4 +137,29 @@
   body > footer {
     position: absolute;
     bottom: 15px;
+  }
+
+
+  @media only screen and (max-width: 549px) {
+    .flip-card-container {
+        transform: scale(0.75);
+      }
+  }
+
+  @media only screen and (max-width: 399px) {
+    .flip-card-container {
+        transform: scale(0.6);
+      }
+  }
+
+  @media only screen and (min-width: 769px) {
+    #flipmark {
+        left: 300px
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    #flipmark {
+        margin-bottom: 25px;
+    }
   }
