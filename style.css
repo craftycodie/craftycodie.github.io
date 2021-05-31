@@ -16,7 +16,7 @@
   }
   .flip-card-container {
     width: 525px;
-    height: 300px;
+    height: 340px;
     perspective: 1000px;
   }
   .flip-card {
@@ -57,7 +57,8 @@
     transform: rotateY(180deg);
     border-radius: 15px;
     filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.5));
-
+    background-position: center;
+    background-size: cover;
   }
   
 
