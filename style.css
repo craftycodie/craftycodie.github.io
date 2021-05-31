@@ -152,10 +152,16 @@
     #flipmark {
         left: 300px
     }
+    .cv {
+      margin-top: 5em;
+    }
   }
 
   @media only screen and (max-width: 768px) {
     #flipmark {
         margin-bottom: 25px;
+    }
+    .cv {
+      margin-top: 2.5em;
     }
   }
