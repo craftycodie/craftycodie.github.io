@@ -83,6 +83,10 @@
       background-color: #DD2E44;
       border-top: 3px solid white;
       border-radius: 15px;
+
+      background-image: url('./card_pride.png');
+      background-position: center;
+      background-size:auto
   }
 
   .flip-card-front footer img {
